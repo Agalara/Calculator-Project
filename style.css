@@ -1,0 +1,49 @@
+*{
+    border:1px solid blue;
+
+}
+
+body{
+    display: flex;
+}
+
+.calc{
+    height: 75vh;
+    width:45vw ;
+
+}
+
+.display{
+    height:10vh;
+    width: 40vw;
+}
+
+.buttons{
+   
+    
+}
+.special{
+    display: flex;
+    flex-direction: row;
+}
+
+.numop{
+    display: flex;
+    
+
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.key{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    display: flex;
+    
+    justify-content: center;
+}
